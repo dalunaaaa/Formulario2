@@ -1,0 +1,67 @@
+.box-login{
+    width: 80%;
+    
+    height: 60rem;
+    background-color: rgb(226, 228, 219);
+    margin: auto;
+    margin-top: 10%;
+   
+
+    display: grid;
+    grid-template-columns: 75rem auto;
+   
+}
+
+.box-login .formulario{
+    height: 100%;
+    padding: 10rem 6rem;
+    margin-top: -50px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows:repeat(8, 1fr);
+    gap: 1rem;
+}
+
+.box-login .logo{
+    grid-column: 1/9;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    padding: 10px 35px;
+}
+.box-login h2{
+    grid-column: 1/9;
+    padding: 10px 50px;
+    margin-top: -15px;
+    font-size: 23px;
+    font-family: 'Poppins', sans-serif;
+}
+.box-login .btn-face{
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 170px;
+    height: 50px;
+    background-color: #393cd8;
+    font-size: 16px;
+    grid-column: 1/4;
+}
+.box-login .btn-xing{
+    grid-column: 4/7;
+    width: 150px;
+    color: white;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    font-size: 16px; 
+}
+
+.box-login span{
+grid-column: 3/5;
+padding: 33px;
+margin-top: -25px;
+font-size: 16px;
+
+}
