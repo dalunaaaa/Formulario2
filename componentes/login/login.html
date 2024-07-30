@@ -3,23 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login Page</title>
     <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="../../config/config.css">
 </head>
 <body>
-    <!-- Entra para usuario o correo -->
-     <!-- entra para contraseña -->
-      <!-- boton para ingresar -->
-        <section class="box-login">
-            <div class="formulario">
-                <div class="logo">Housy 🧿</div>
-                <h2> Welcome back, please login, <br> to your account</h2>
-                <div class="btn-face"> 🦷login with facebook</div>
-                <div class="btn-xing">  🦿Login with X</div>
-                <span class="or">OR </span>
-            </div>
-            <div class="banner"></div>
-        </section>
+    <section class="cajaP">
+        <div class="login-box">
+            <div class="logo">Housy 🧿</div>
+            <h2>Welcome Back, Please login to your account.</h2>
+            <button class="btn-social btn-facebook">🦷 Login with Facebook</button>
+            <button class="btn-social btn-xing">🦿 Login with Xing</button>
+            <span class="or">- OR -</span>
+            <form action="" method="POST" id="login-form">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <div class="options">
+                    <label>
+                        <input type="checkbox" name="remember">
+                        Remember me
+                    </label>
+                    <a href="#" class="forgot-password">Forgot password?</a>
+                </div>
+                <div class="btn-abajo">
+                    <button type="" class="btn-login">Login</button>
+                    <button type="" class="btn-signup">Sign Up</button>
+                </div>
+                <p>By signing up, you agree to Housy's Terms and Conditions & Privacy Policy</p>
+            </form>
+        </div>
+        <div class="caja"></div>
+    </section>
 </body>
 </html>
